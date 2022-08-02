@@ -107,8 +107,9 @@
 .quote em {
     font-size: 36px;
     font-weight: 50;
-    padding: 10px 700px;
+    padding: 10px 600px;
     font-weight: lighter;
+    margin-top: 30px;
 }
 
 .thor {
@@ -118,4 +119,45 @@
     font-size: 36px;
     font-style: italic;
     font-weight: #1F2937;
+}
+
+.call {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em 10em;
+    border-radius: 8px;
+    margin: 120px 160px 160px 160px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call .right {
+    border-radius: 8px;
+    border: 2px solid white;
+    width: 120px;
+    height: 30px;
+    background-color: #3882F6;
+    margin-left: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
 }
